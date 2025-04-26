@@ -1,0 +1,25 @@
+[
+  {
+    "label": "Format project",
+    "command": "go fmt",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "no_focus",
+    "reveal_target": "dock",
+    "hide": "on_success",
+    "shell": "system"
+  },
+  {
+    "label": "Run project",
+    "command": "go run .",
+    "env": {
+      "CONFIG_PATH": "config.yaml"
+    },
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "no_focus",
+    "reveal_target": "dock",
+    "hide": "never",
+    "shell": "system"
+  }
+]
