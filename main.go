@@ -22,7 +22,7 @@ func main() {
 
 	mux.Handle("GET /news/ria", handlers.RiaHandler{Config: config})
 	mux.Handle("GET /news/tass", handlers.TassHandler{Config: config})
-	
+
 	slog.Info("running server at localhost:8080")
 
 	if err := http.ListenAndServe("localhost:8080", mux); err != nil {

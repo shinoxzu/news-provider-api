@@ -2,9 +2,9 @@ package handlers
 
 import (
 	"encoding/json"
-	"net/http"
 	"github.com/shinoxzu/news-provider-api/config"
 	"github.com/shinoxzu/news-provider-api/models"
+	"net/http"
 
 	"github.com/mmcdole/gofeed"
 )
